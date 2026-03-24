@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jed Aloui | Portfolio IA & Tech</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💠</text></svg>">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-text">INITIALIZING_NEUROLIS_OS...</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <div id="ui-layer">
+        
+        <header>
+            <div class="system-status">
+                <span class="blink">●</span> SYSTEM_READY | LOC: MARSEILLE_13014 | USER: JED_ALOUI
+            </div>
+            <h1 class="glitch" data-text="JED ALOUI">JED ALOUI</h1>
+            <p class="subtitle">ÉLÈVE @ HENRI WALLON | TECH ENTHUSIAST @ TUMO</p>
+        </header>
+
+        <nav id="nexus-menu"></nav>
+
+        <div id="ai-terminal">
+            <div class="terminal-nav">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="title">NEUROLIS_ASSISTANT_V1.0</span>
+            </div>
+            <div id="terminal-content">
+                <p class="bot-msg">> Connexion sécurisée établie.</p>
+                <p class="bot-msg">> Je suis l'assistant de Jed. Posez-moi une question sur ses projets de véhicules virtuels ou ses automates IA.</p>
+            </div>
+            <div class="terminal-input-area">
+                <span class="cursor">></span>
+                <input type="text" id="user-input" placeholder="Entrer une commande..." autocomplete="off">
+            </div>
+        </div>
+
+        <footer class="hud-footer">
+            <div class="footer-left">
+                <a href="https://github.com/neurolistech-prog" target="_blank">GITHUB</a>
+                <a href="https://actualites-de-technolgie.blogspot.com" target="_blank">BLOG_TECH</a>
+                <a href="assets/cv-jed-aloui.pdf" target="_blank" class="cv-link">[ VOIR_CV_PDF ]</a>
+            </div>
+            <div class="footer-right">
+                <span class="contact-item">neurolis.tech@gmail.com</span>
+                <span class="separator">|</span>
+                <span class="contact-item">+33 06 13 06 20 83</span>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
